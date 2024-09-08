@@ -1,0 +1,43 @@
+{
+  "name": "solid-rspack-example",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "serve": "rsbuild preview",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.10.0",
+    "@rsbuild/core": "1.0.1-rc.5",
+    "@rsbuild/plugin-babel": "1.0.1-rc.5",
+    "@rsbuild/plugin-eslint": "^1.0.2",
+    "@rsbuild/plugin-solid": "1.0.1-rc.5",
+    "@solidjs/router": "^0.14.3",
+    "@stylistic/eslint-plugin": "^2.7.2",
+    "@stylistic/eslint-plugin-js": "^2.7.2",
+    "@stylistic/eslint-plugin-jsx": "^2.7.2",
+    "@stylistic/eslint-plugin-plus": "^2.7.2",
+    "@stylistic/eslint-plugin-ts": "^2.7.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.10.0",
+    "eslint-plugin-boundaries": "^4.2.2",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-solid": "^0.14.3",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.4.0",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.22"
+  },
+  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
+}
