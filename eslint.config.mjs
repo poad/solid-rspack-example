@@ -11,11 +11,13 @@ import tseslint from 'typescript-eslint';
 // @ts-expect-error ignore type errors
 import importPlugin from 'eslint-plugin-import';
 
-import solid from 'eslint-plugin-solid';
+import pluginPromise from 'eslint-plugin-promise'
 
+import solid from 'eslint-plugin-solid';
 
 export default tseslint.config(
   eslint.configs.recommended,
+  pluginPromise.configs['flat/recommended'],
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
   {
