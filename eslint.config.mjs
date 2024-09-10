@@ -1,11 +1,8 @@
 // @ts-check
 
 import eslint from '@eslint/js';
-// @ts-expect-error ignore type errors
 import stylistic from '@stylistic/eslint-plugin';
-// @ts-expect-error ignore type errors
 import stylisticTs from '@stylistic/eslint-plugin-ts';
-// @ts-expect-error ignore type errors
 import stylisticJsx from '@stylistic/eslint-plugin-jsx';
 import tseslint from 'typescript-eslint';
 // @ts-expect-error ignore type errors
