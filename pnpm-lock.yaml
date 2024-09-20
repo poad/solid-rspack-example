@@ -22,17 +22,17 @@ importers:
         specifier: ^9.10.0
         version: 9.10.0
       '@rsbuild/core':
-        specifier: 1.0.4
-        version: 1.0.4
+        specifier: 1.0.5
+        version: 1.0.5
       '@rsbuild/plugin-babel':
         specifier: 1.0.1
-        version: 1.0.1(@rsbuild/core@1.0.4)
+        version: 1.0.1(@rsbuild/core@1.0.5)
       '@rsbuild/plugin-eslint':
         specifier: ^1.0.3
-        version: 1.0.3(@rsbuild/core@1.0.4)(eslint@9.10.0(jiti@1.21.6))
+        version: 1.0.3(@rsbuild/core@1.0.5)(eslint@9.10.0(jiti@1.21.6))
       '@rsbuild/plugin-solid':
         specifier: 1.0.1
-        version: 1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.4)(solid-js@1.8.22)
+        version: 1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.5)(solid-js@1.8.22)
       '@solidjs/router':
         specifier: ^0.14.5
         version: 0.14.5(solid-js@1.8.22)
@@ -571,8 +571,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.0.4':
-    resolution: {integrity: sha512-ACvCzeyW5gW5olGBzK5Tnc5RfUOQ+BPnMB7Y0Iycz0pRYAghKQcYkpPZlEpdsKQDNeBUKk9loOy+Z7Rca4Ouzw==}
+  '@rsbuild/core@1.0.5':
+    resolution: {integrity: sha512-yUWs4k9X9C661P0kwe3Om1GMJKAxliXDMnBV5hHoaEuAovdp/pOG3pk2fVsRrxcwMn3i6FyMGSVB7g0WmQpeHA==}
     engines: {node: '>=16.7.0'}
     hasBin: true
 
@@ -1124,8 +1124,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.25:
-    resolution: {integrity: sha512-kMb204zvK3PsSlgvvwzI3wBIcAw15tRkYk+NQdsjdDtcQWTp2RABbMQ9rUBy8KNEOM+/E6ep+XC3AykiWZld4g==}
+  electron-to-chromium@1.5.26:
+    resolution: {integrity: sha512-Z+OMe9M/V6Ep9n/52+b7lkvYEps26z4Yz3vjWL1V61W0q+VLF1pOHhMY17sa4roz4AWmULSI8E6SAojZA5L0YQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2765,7 +2765,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.22.0':
     optional: true
 
-  '@rsbuild/core@1.0.4':
+  '@rsbuild/core@1.0.5':
     dependencies:
       '@rspack/core': 1.0.5(@swc/helpers@0.5.13)
       '@rspack/lite-tapable': 1.0.0
@@ -2775,13 +2775,13 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  '@rsbuild/plugin-babel@1.0.1(@rsbuild/core@1.0.4)':
+  '@rsbuild/plugin-babel@1.0.1(@rsbuild/core@1.0.5)':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-proposal-decorators': 7.24.7(@babel/core@7.25.2)
       '@babel/plugin-transform-class-properties': 7.25.4(@babel/core@7.25.2)
       '@babel/preset-typescript': 7.24.7(@babel/core@7.25.2)
-      '@rsbuild/core': 1.0.4
+      '@rsbuild/core': 1.0.5
       '@types/babel__core': 7.20.5
       deepmerge: 4.3.1
       reduce-configs: 1.0.0
@@ -2789,23 +2789,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rsbuild/plugin-eslint@1.0.3(@rsbuild/core@1.0.4)(eslint@9.10.0(jiti@1.21.6))':
+  '@rsbuild/plugin-eslint@1.0.3(@rsbuild/core@1.0.5)(eslint@9.10.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.10.0(jiti@1.21.6)
       eslint-rspack-plugin: 4.2.0(eslint@9.10.0(jiti@1.21.6))(webpack@5.94.0)
       webpack: 5.94.0
     optionalDependencies:
-      '@rsbuild/core': 1.0.4
+      '@rsbuild/core': 1.0.5
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
       - uglify-js
       - webpack-cli
 
-  '@rsbuild/plugin-solid@1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.4)(solid-js@1.8.22)':
+  '@rsbuild/plugin-solid@1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.5)(solid-js@1.8.22)':
     dependencies:
-      '@rsbuild/core': 1.0.4
-      '@rsbuild/plugin-babel': 1.0.1(@rsbuild/core@1.0.4)
+      '@rsbuild/core': 1.0.5
+      '@rsbuild/plugin-babel': 1.0.1(@rsbuild/core@1.0.5)
       babel-preset-solid: 1.8.22(@babel/core@7.25.2)
       solid-refresh: 0.6.3(solid-js@1.8.22)
     transitivePeerDependencies:
@@ -3286,7 +3286,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001662
-      electron-to-chromium: 1.5.25
+      electron-to-chromium: 1.5.26
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -3417,7 +3417,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.25: {}
+  electron-to-chromium@1.5.26: {}
 
   emoji-regex@8.0.0: {}
 
