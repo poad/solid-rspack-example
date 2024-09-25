@@ -14,7 +14,7 @@
     "@eslint/compat": "^1.1.1",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.11.1",
-    "@rsbuild/core": "1.0.5",
+    "@rsbuild/core": "1.0.6",
     "@rsbuild/plugin-babel": "1.0.1",
     "@rsbuild/plugin-eslint": "^1.0.3",
     "@rsbuild/plugin-solid": "1.0.1",
@@ -37,7 +37,7 @@
     "vite-plugin-solid": "^2.10.2"
   },
   "dependencies": {
-    "solid-js": "^1.9.0"
+    "solid-js": "^1.9.1"
   },
   "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
 }
