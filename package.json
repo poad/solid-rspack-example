@@ -18,7 +18,7 @@
     "@rsbuild/plugin-babel": "1.0.1",
     "@rsbuild/plugin-eslint": "^1.0.3",
     "@rsbuild/plugin-solid": "1.0.1",
-    "@solidjs/router": "^0.14.5",
+    "@solidjs/router": "^0.14.7",
     "@stylistic/eslint-plugin": "^2.8.0",
     "@stylistic/eslint-plugin-js": "^2.8.0",
     "@stylistic/eslint-plugin-jsx": "^2.8.0",
