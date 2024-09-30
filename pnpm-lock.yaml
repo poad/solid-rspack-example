@@ -22,17 +22,17 @@ importers:
         specifier: ^9.11.1
         version: 9.11.1
       '@rsbuild/core':
-        specifier: 1.0.7
-        version: 1.0.7
+        specifier: 1.0.8
+        version: 1.0.8
       '@rsbuild/plugin-babel':
         specifier: 1.0.1
-        version: 1.0.1(@rsbuild/core@1.0.7)
+        version: 1.0.1(@rsbuild/core@1.0.8)
       '@rsbuild/plugin-eslint':
-        specifier: ^1.0.3
-        version: 1.0.3(@rsbuild/core@1.0.7)(eslint@9.11.1(jiti@1.21.6))
+        specifier: ^1.0.4
+        version: 1.0.4(@rsbuild/core@1.0.8)(eslint@9.11.1(jiti@1.21.6))
       '@rsbuild/plugin-solid':
-        specifier: 1.0.1
-        version: 1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.7)(solid-js@1.9.1)
+        specifier: 1.0.2
+        version: 1.0.2(@babel/core@7.25.2)(@rsbuild/core@1.0.8)(solid-js@1.9.1)
       '@solidjs/router':
         specifier: ^0.14.7
         version: 0.14.7(solid-js@1.9.1)
@@ -575,8 +575,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.0.7':
-    resolution: {integrity: sha512-NqPAtKnPGdvKituKehTzUd8bnzVsdAs6vLY82OwymkmMlW9zcFYfeVYAfSUS3uTv7vDIFQwff0PHgYYV3ufpwQ==}
+  '@rsbuild/core@1.0.8':
+    resolution: {integrity: sha512-c5tdq+mcP3xZWaNN5J+Rderzcp6uA9NfbyQtYMqYvlNfEw9RcsqQYMPoUMqpx1V9jqbKHSNl/fTtves1X+TS2A==}
     engines: {node: '>=16.7.0'}
     hasBin: true
 
@@ -585,8 +585,8 @@ packages:
     peerDependencies:
       '@rsbuild/core': 1.x || ^1.0.1-rc.0
 
-  '@rsbuild/plugin-eslint@1.0.3':
-    resolution: {integrity: sha512-ENz1AlwzKTsmXy6shtkad4qeceWP+FMzoOuJez7haLxnaMIibgsnK9RSKB08+nJgaT131nMBf/DlXEkS8MBXHg==}
+  '@rsbuild/plugin-eslint@1.0.4':
+    resolution: {integrity: sha512-wcj2KVkncwEpBcfuVsmqo/9Siw0igudk/KdKX50ZQyVSHo2cfcWSmMJJqBQMFK9AqU7L6+HdBAkU26STG8S4jQ==}
     peerDependencies:
       '@rsbuild/core': 1.x || ^1.0.1-beta.0
       eslint: ^8.0.0 || ^9.0.0
@@ -594,8 +594,8 @@ packages:
       '@rsbuild/core':
         optional: true
 
-  '@rsbuild/plugin-solid@1.0.1':
-    resolution: {integrity: sha512-a3FpRmIT0P34Hhe73lu2nHyFjnRVgHiBwQ9/y3P0+h9wdD94G7BP0hZfJpP798/CHRwUb7LrkOb9fQJ+2ZMGRg==}
+  '@rsbuild/plugin-solid@1.0.2':
+    resolution: {integrity: sha512-te6cRrthEapoSd2FtaqQ19TMR5EPeDWlCtWfQ3TMlke+H1CiAu44DtWC/MXY5bm/8Z4HXc4ImxOea49qaOrlgQ==}
     peerDependencies:
       '@rsbuild/core': 1.x || ^1.0.1-rc.0
 
@@ -1299,12 +1299,11 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-rspack-plugin@4.2.0:
-    resolution: {integrity: sha512-N+aOSi5OT5FHRngQJkff0xdiNGd7L9INieFVkzEfjN7M1VNXVwYStyP3AiLp4RnL4MyAKakN80Ct5Bv+x5upNw==}
+  eslint-rspack-plugin@4.2.1:
+    resolution: {integrity: sha512-jv+VggchVC56U9ZxP2RUXTVOeOyjKVuTxGSQdp6YkPLLi9JTHFW5Fwkqi84NrOD3itBQz5m+Agvx6faAV1MJbg==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
       eslint: ^8.0.0 || ^9.0.0
-      webpack: ^5.0.0
 
   eslint-scope@5.1.1:
     resolution: {integrity: sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==}
@@ -2929,23 +2928,22 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.22.5':
     optional: true
 
-  '@rsbuild/core@1.0.7':
+  '@rsbuild/core@1.0.8':
     dependencies:
       '@rspack/core': 1.0.8(@swc/helpers@0.5.13)
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.13
-      caniuse-lite: 1.0.30001664
       core-js: 3.38.1
     optionalDependencies:
       fsevents: 2.3.3
 
-  '@rsbuild/plugin-babel@1.0.1(@rsbuild/core@1.0.7)':
+  '@rsbuild/plugin-babel@1.0.1(@rsbuild/core@1.0.8)':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-proposal-decorators': 7.24.7(@babel/core@7.25.2)
       '@babel/plugin-transform-class-properties': 7.25.4(@babel/core@7.25.2)
       '@babel/preset-typescript': 7.24.7(@babel/core@7.25.2)
-      '@rsbuild/core': 1.0.7
+      '@rsbuild/core': 1.0.8
       '@types/babel__core': 7.20.5
       deepmerge: 4.3.1
       reduce-configs: 1.0.0
@@ -2953,23 +2951,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rsbuild/plugin-eslint@1.0.3(@rsbuild/core@1.0.7)(eslint@9.11.1(jiti@1.21.6))':
+  '@rsbuild/plugin-eslint@1.0.4(@rsbuild/core@1.0.8)(eslint@9.11.1(jiti@1.21.6))':
     dependencies:
       eslint: 9.11.1(jiti@1.21.6)
-      eslint-rspack-plugin: 4.2.0(eslint@9.11.1(jiti@1.21.6))(webpack@5.95.0)
+      eslint-rspack-plugin: 4.2.1(eslint@9.11.1(jiti@1.21.6))
       webpack: 5.95.0
     optionalDependencies:
-      '@rsbuild/core': 1.0.7
+      '@rsbuild/core': 1.0.8
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
       - uglify-js
       - webpack-cli
 
-  '@rsbuild/plugin-solid@1.0.1(@babel/core@7.25.2)(@rsbuild/core@1.0.7)(solid-js@1.9.1)':
+  '@rsbuild/plugin-solid@1.0.2(@babel/core@7.25.2)(@rsbuild/core@1.0.8)(solid-js@1.9.1)':
     dependencies:
-      '@rsbuild/core': 1.0.7
-      '@rsbuild/plugin-babel': 1.0.1(@rsbuild/core@1.0.7)
+      '@rsbuild/core': 1.0.8
+      '@rsbuild/plugin-babel': 1.0.1(@rsbuild/core@1.0.8)
       babel-preset-solid: 1.9.0(@babel/core@7.25.2)
       solid-refresh: 0.6.3(solid-js@1.9.1)
     transitivePeerDependencies:
@@ -3833,7 +3831,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-rspack-plugin@4.2.0(eslint@9.11.1(jiti@1.21.6))(webpack@5.95.0):
+  eslint-rspack-plugin@4.2.1(eslint@9.11.1(jiti@1.21.6)):
     dependencies:
       '@types/eslint': 8.56.12
       eslint: 9.11.1(jiti@1.21.6)
@@ -3841,7 +3839,6 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       schema-utils: 4.2.0
-      webpack: 5.95.0
 
   eslint-scope@5.1.1:
     dependencies:
