@@ -18,7 +18,7 @@
     "@rsbuild/plugin-babel": "1.0.2",
     "@rsbuild/plugin-eslint": "^1.0.4",
     "@rsbuild/plugin-solid": "1.0.3",
-    "@solidjs/router": "^0.14.8",
+    "@solidjs/router": "^0.14.9",
     "@stylistic/eslint-plugin": "^2.9.0",
     "@stylistic/eslint-plugin-js": "^2.9.0",
     "@stylistic/eslint-plugin-jsx": "^2.9.0",
@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "^7.1.0",
     "eslint-plugin-solid": "^0.14.3",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13",
+    "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.9.0",
     "vite-plugin-solid": "^2.10.2"
