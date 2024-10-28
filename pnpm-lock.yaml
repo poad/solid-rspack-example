@@ -22,17 +22,17 @@ importers:
         specifier: ^9.13.0
         version: 9.13.0
       '@rsbuild/core':
-        specifier: 1.0.17
-        version: 1.0.17
+        specifier: 1.0.18
+        version: 1.0.18
       '@rsbuild/plugin-babel':
         specifier: 1.0.2
-        version: 1.0.2(@rsbuild/core@1.0.17)
+        version: 1.0.2(@rsbuild/core@1.0.18)
       '@rsbuild/plugin-eslint':
         specifier: ^1.0.4
-        version: 1.0.4(@rsbuild/core@1.0.17)(eslint@9.13.0(jiti@1.21.6))
+        version: 1.0.4(@rsbuild/core@1.0.18)(eslint@9.13.0(jiti@1.21.6))
       '@rsbuild/plugin-solid':
         specifier: 1.0.3
-        version: 1.0.3(@babel/core@7.26.0)(@rsbuild/core@1.0.17)(solid-js@1.9.3)
+        version: 1.0.3(@babel/core@7.26.0)(@rsbuild/core@1.0.18)(solid-js@1.9.3)
       '@solidjs/router':
         specifier: ^0.14.10
         version: 0.14.10(solid-js@1.9.3)
@@ -594,8 +594,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.0.17':
-    resolution: {integrity: sha512-XbRrFsX5YiYrArD2f27a+WGhRWvoYgogaTMX/kiL7xcZOFuV+PbPBdU0e2o00NROGLRyVn7cTfkIkyMSr1B9Vg==}
+  '@rsbuild/core@1.0.18':
+    resolution: {integrity: sha512-NRdcGCAuBpzAIIdv+gVZxpgd9Cu9JSbaOC13nTbWRKXrHPpr+1iwYFBbM01KtX0Fe2TBLgmSaJfdDJAfEeZ3Dg==}
     engines: {node: '>=16.7.0'}
     hasBin: true
 
@@ -2770,7 +2770,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.24.2':
     optional: true
 
-  '@rsbuild/core@1.0.17':
+  '@rsbuild/core@1.0.18':
     dependencies:
       '@rspack/core': 1.0.14(@swc/helpers@0.5.13)
       '@rspack/lite-tapable': 1.0.1
@@ -2779,13 +2779,13 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  '@rsbuild/plugin-babel@1.0.2(@rsbuild/core@1.0.17)':
+  '@rsbuild/plugin-babel@1.0.2(@rsbuild/core@1.0.18)':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-proposal-decorators': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-class-properties': 7.25.9(@babel/core@7.26.0)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.0)
-      '@rsbuild/core': 1.0.17
+      '@rsbuild/core': 1.0.18
       '@types/babel__core': 7.20.5
       deepmerge: 4.3.1
       reduce-configs: 1.0.0
@@ -2793,23 +2793,23 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rsbuild/plugin-eslint@1.0.4(@rsbuild/core@1.0.17)(eslint@9.13.0(jiti@1.21.6))':
+  '@rsbuild/plugin-eslint@1.0.4(@rsbuild/core@1.0.18)(eslint@9.13.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.13.0(jiti@1.21.6)
       eslint-rspack-plugin: 4.2.1(eslint@9.13.0(jiti@1.21.6))
       webpack: 5.95.0
     optionalDependencies:
-      '@rsbuild/core': 1.0.17
+      '@rsbuild/core': 1.0.18
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
       - uglify-js
       - webpack-cli
 
-  '@rsbuild/plugin-solid@1.0.3(@babel/core@7.26.0)(@rsbuild/core@1.0.17)(solid-js@1.9.3)':
+  '@rsbuild/plugin-solid@1.0.3(@babel/core@7.26.0)(@rsbuild/core@1.0.18)(solid-js@1.9.3)':
     dependencies:
-      '@rsbuild/core': 1.0.17
-      '@rsbuild/plugin-babel': 1.0.2(@rsbuild/core@1.0.17)
+      '@rsbuild/core': 1.0.18
+      '@rsbuild/plugin-babel': 1.0.2(@rsbuild/core@1.0.18)
       babel-preset-solid: 1.9.3(@babel/core@7.26.0)
       solid-refresh: 0.6.3(solid-js@1.9.3)
     transitivePeerDependencies:
