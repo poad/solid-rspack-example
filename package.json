@@ -11,10 +11,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@eslint/compat": "^1.2.2",
+    "@eslint/compat": "^1.2.3",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.14.0",
-    "@rsbuild/core": "1.1.1",
+    "@rsbuild/core": "1.1.2",
     "@rsbuild/plugin-babel": "1.0.3",
     "@rsbuild/plugin-eslint": "^1.0.4",
     "@rsbuild/plugin-solid": "1.0.4",
@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "^7.1.0",
     "eslint-plugin-solid": "^0.14.4",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.14",
+    "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.14.0",
     "vite-plugin-solid": "^2.10.2"
