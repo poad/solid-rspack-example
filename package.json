@@ -14,7 +14,7 @@
     "@eslint/compat": "^1.2.3",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.15.0",
-    "@rsbuild/core": "1.1.4",
+    "@rsbuild/core": "1.1.5",
     "@rsbuild/plugin-babel": "1.0.3",
     "@rsbuild/plugin-eslint": "^1.0.4",
     "@rsbuild/plugin-solid": "1.0.4",
