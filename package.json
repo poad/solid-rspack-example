@@ -14,7 +14,7 @@
     "@eslint/compat": "^1.2.3",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.15.0",
-    "@rsbuild/core": "1.1.5",
+    "@rsbuild/core": "1.1.6",
     "@rsbuild/plugin-babel": "1.0.3",
     "@rsbuild/plugin-eslint": "^1.0.4",
     "@rsbuild/plugin-solid": "1.0.4",
@@ -28,13 +28,13 @@
     "eslint": "^9.15.0",
     "eslint-plugin-boundaries": "^5.0.1",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-promise": "^7.2.0",
+    "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.4",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.16.0",
-    "vite-plugin-solid": "^2.10.2"
+    "vite-plugin-solid": "^2.11.0"
   },
   "dependencies": {
     "solid-js": "^1.9.3"
