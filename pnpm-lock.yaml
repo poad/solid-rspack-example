@@ -37,20 +37,20 @@ importers:
         specifier: ^0.15.1
         version: 0.15.1(solid-js@1.9.3)
       '@stylistic/eslint-plugin':
-        specifier: ^2.12.0
-        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       '@stylistic/eslint-plugin-js':
-        specifier: ^2.12.0
-        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.16.0(jiti@1.21.6))
       '@stylistic/eslint-plugin-jsx':
-        specifier: ^2.12.0
-        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.16.0(jiti@1.21.6))
       '@stylistic/eslint-plugin-plus':
-        specifier: ^2.12.0
-        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.16.0(jiti@1.21.6))
       '@stylistic/eslint-plugin-ts':
-        specifier: ^2.12.0
-        version: 2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -67,8 +67,8 @@ importers:
         specifier: ^7.2.1
         version: 7.2.1(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-solid:
-        specifier: ^0.14.4
-        version: 0.14.4(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
+        specifier: ^0.14.5
+        version: 0.14.5(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       postcss:
         specifier: ^8.4.49
         version: 8.4.49
@@ -455,11 +455,20 @@ packages:
     resolution: {integrity: sha512-u3UPsIilWKOM3F9CXtrG8LEJmNxwoCQC/XVj4IKYXvvpx7QIi/Kg1LI5uDmDpKlac62NUtX7eLjRh+jVZcLOzw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
+  '@jridgewell/gen-mapping@0.3.5':
+    resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
+    engines: {node: '>=6.0.0'}
+
   '@jridgewell/gen-mapping@0.3.6':
     resolution: {integrity: sha512-e8fGuQbA+pfsS2fGGRZgciyzstnkNrZCRIuOzgej9WCxPjHW3fn6h9SoJC3MrvfylMegiJPse94+mBJGf/qltQ==}
+    deprecated: publish failed to build the dist directory
 
   '@jridgewell/resolve-uri@3.1.2':
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
+    engines: {node: '>=6.0.0'}
+
+  '@jridgewell/set-array@1.2.1':
+    resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
 
   '@jridgewell/source-map@0.3.6':
@@ -693,31 +702,31 @@ packages:
     peerDependencies:
       solid-js: ^1.8.6
 
-  '@stylistic/eslint-plugin-js@2.12.0':
-    resolution: {integrity: sha512-HMA+qhlDLmLiYC0nyLPEJT4CBq3BP9ri51WECRKmEjO6RZm41MVZCJl+IfUcp2sUvGSl3/FSK5gzgBKcVv8S3w==}
+  '@stylistic/eslint-plugin-js@2.12.1':
+    resolution: {integrity: sha512-5ybogtEgWIGCR6dMnaabztbWyVdAPDsf/5XOk6jBonWug875Q9/a6gm9QxnU3rhdyDEnckWKX7dduwYJMOWrVA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin-jsx@2.12.0':
-    resolution: {integrity: sha512-KNMx9s6j1fH1OQ2AyJ9Rf24lOpALYuiYFiSG2TnVfYNidy6emcR8zyHDEic6mn3GIlOGq+rgxXNfKmuKCqB9Vw==}
+  '@stylistic/eslint-plugin-jsx@2.12.1':
+    resolution: {integrity: sha512-VHqOF4bQ2iwUnRfmiP/CB3z3L9zFuV8Qi1q2fyEht7IjAt3IV/Ugm9EeSBPLcZd7ZjfISmWlcT1XbpnWIEFHEA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin-plus@2.12.0':
-    resolution: {integrity: sha512-90X/B58m7TMotKFW/+UE1ETULAT5ja3XyVyMcIt5p+T5tYcZw1HtM6dJc78lEdPLewiMJ0894EURpITldpgRJw==}
+  '@stylistic/eslint-plugin-plus@2.12.1':
+    resolution: {integrity: sha512-5eyCVo6h3ahlSjft6GOXvxdYwjh0VDfbk0cfXoqjPSHM4uutxHt6vyjGll6qdsjLeTCPAVl6XiygPCwtcblnwQ==}
     peerDependencies:
       eslint: '*'
 
-  '@stylistic/eslint-plugin-ts@2.12.0':
-    resolution: {integrity: sha512-JqoHGQCeW0dC3LN/7+ZRwTOCs3kBum2b4k7ovx+0RXeaDIINs5F+/Mp/NvTCPqDzUlBkd1HOaviKyaEWpKA7Yw==}
+  '@stylistic/eslint-plugin-ts@2.12.1':
+    resolution: {integrity: sha512-Xx1NIioeW6LLlOfq5L/dLSrUXvi6q80UXDNbn/rXjKCzFT4a8wKwtp1q25kssdr1JEXI9a6tOHwFsh4Em+MoGg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin@2.12.0':
-    resolution: {integrity: sha512-IvD2WXbOoSp0zNpyYbjdSyEjZtut78RYfj2WIlbChE7HFuposTK5X1hc5+4AyqYcjLXYdD5oo/sJtqMGFNRb1w==}
+  '@stylistic/eslint-plugin@2.12.1':
+    resolution: {integrity: sha512-fubZKIHSPuo07FgRTn6S4Nl0uXPRPYVNpyZzIDGfp7Fny6JjNus6kReLD7NI380JXi4HtUTSOZ34LBuNPO1XLQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -1168,11 +1177,12 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-plugin-solid@0.14.4:
-    resolution: {integrity: sha512-uWsNA2okBgwBRPxjsQ7DxlRksq1EKdMhwQlViHdkkRDLnWqwnZEjQASWeckZ0DI24sVzPeETJhPv1BWKKiu99A==}
+  eslint-plugin-solid@0.14.5:
+    resolution: {integrity: sha512-nfuYK09ah5aJG/oEN6P1qziy1zLgW4PDWe75VNPi4CEFYk1x2AEqwFeQfEPR7gNn0F2jOeqKhx2E+5oNCOBYWQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+      typescript: '>=4.8.4'
 
   eslint-rspack-plugin@4.2.1:
     resolution: {integrity: sha512-jv+VggchVC56U9ZxP2RUXTVOeOyjKVuTxGSQdp6YkPLLi9JTHFW5Fwkqi84NrOD3itBQz5m+Agvx6faAV1MJbg==}
@@ -2509,6 +2519,13 @@ snapshots:
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
+  '@jridgewell/gen-mapping@0.3.5':
+    dependencies:
+      '@jridgewell/set-array': 1.2.1
+      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/trace-mapping': 0.3.25
+    optional: true
+
   '@jridgewell/gen-mapping@0.3.6':
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.16-beta.0
@@ -2516,9 +2533,12 @@ snapshots:
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
+  '@jridgewell/set-array@1.2.1':
+    optional: true
+
   '@jridgewell/source-map@0.3.6':
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.6
+      '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
     optional: true
 
@@ -2716,13 +2736,13 @@ snapshots:
     dependencies:
       solid-js: 1.9.3
 
-  '@stylistic/eslint-plugin-js@2.12.0(eslint@9.16.0(jiti@1.21.6))':
+  '@stylistic/eslint-plugin-js@2.12.1(eslint@9.16.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
 
-  '@stylistic/eslint-plugin-jsx@2.12.0(eslint@9.16.0(jiti@1.21.6))':
+  '@stylistic/eslint-plugin-jsx@2.12.1(eslint@9.16.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
       eslint-visitor-keys: 4.2.0
@@ -2730,11 +2750,11 @@ snapshots:
       estraverse: 5.3.0
       picomatch: 4.0.2
 
-  '@stylistic/eslint-plugin-plus@2.12.0(eslint@9.16.0(jiti@1.21.6))':
+  '@stylistic/eslint-plugin-plus@2.12.1(eslint@9.16.0(jiti@1.21.6))':
     dependencies:
       eslint: 9.16.0(jiti@1.21.6)
 
-  '@stylistic/eslint-plugin-ts@2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
+  '@stylistic/eslint-plugin-ts@2.12.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/utils': 8.18.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.16.0(jiti@1.21.6)
@@ -2744,7 +2764,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@stylistic/eslint-plugin@2.12.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
+  '@stylistic/eslint-plugin@2.12.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)':
     dependencies:
       '@typescript-eslint/utils': 8.18.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.16.0(jiti@1.21.6)
@@ -3341,7 +3361,7 @@ snapshots:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.16.0(jiti@1.21.6))
       eslint: 9.16.0(jiti@1.21.6)
 
-  eslint-plugin-solid@0.14.4(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2):
+  eslint-plugin-solid@0.14.5(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2):
     dependencies:
       '@typescript-eslint/utils': 8.18.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.16.0(jiti@1.21.6)
@@ -3350,9 +3370,9 @@ snapshots:
       kebab-case: 1.0.2
       known-css-properties: 0.30.0
       style-to-object: 1.0.8
+      typescript: 5.7.2
     transitivePeerDependencies:
       - supports-color
-      - typescript
 
   eslint-rspack-plugin@4.2.1(eslint@9.16.0(jiti@1.21.6)):
     dependencies:
