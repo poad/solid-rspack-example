@@ -1,4 +1,4 @@
-name: CI and Preview
+name: Build and Test
 
 on:
   pull_request:
@@ -6,37 +6,37 @@ on:
       - main
   push:
     branches:
-      - main
+    - main
 
   workflow_dispatch:
 
-permissions:
-  contents: read
-  id-token: write
-  deployments: write
-
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          check-latest: true
+    - name: Use Node.js 22.x
+      uses: actions/setup-node@v4.1.0
+      with:
+        node-version: 22.x
+        check-latest: true
 
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        with:
-          run_install: |
-            - recursive: true
-              args: [--no-frozen-lockfile]
+    - uses: pnpm/action-setup@v4
+      name: Install pnpm
+      with:
+        run_install: |
+          - recursive: false
+            args: [--no-frozen-lockfile]
 
-      - name: lint
-        run: pnpm lint
+    - uses: oven-sh/setup-bun@v2
 
-      - name: Build with Next.js
-        run: pnpm build
+    - name: lint
+      env:
+        CI: true
+      run: bun run --bun lint
+
+    - name: build
+      env:
+        CI: true
+      run: bun run --bun build
