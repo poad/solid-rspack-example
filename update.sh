@@ -12,15 +12,29 @@ if [ $result -ne 0 ]; then
   cd "${CUR}" || exit
   exit $result
 fi
-echo ""
-pwd
-pnpm install && pnpm up -r && pnpm lint-fix && pnpm build
+
+cd "${CURRENT}" || exit
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}" || exit
   exit $result
 fi
-git commit -am "Bumps node modules" && git push
+echo ""
+pwd
+corepack use pnpm@latest && pnpm install -r && pnpm up -r && pnpm build
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}" || exit
+  exit $result
+fi
+
+cd "${CURRENT}" || exit
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}" || exit
+  exit $result
+fi
+git pull --prune && git commit -am "Bumps node modules" && git push
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}" || exit
