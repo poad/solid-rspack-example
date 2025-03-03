@@ -14,7 +14,7 @@
     "@eslint/compat": "^1.2.7",
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.21.0",
-    "@rsbuild/core": "1.2.12",
+    "@rsbuild/core": "1.2.14",
     "@rsbuild/plugin-babel": "1.0.4",
     "@rsbuild/plugin-eslint": "^1.1.1",
     "@rsbuild/plugin-solid": "1.0.5",
@@ -34,7 +34,7 @@
     "pnpm": "^10.5.2",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.9",
-    "typescript": "^5.7.3",
+    "typescript": "^5.8.2",
     "typescript-eslint": "^8.25.0",
     "vite-plugin-solid": "^2.11.6"
   },
